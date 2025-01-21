@@ -138,15 +138,21 @@ bellman_ford_list 함수는 bellman_ford_matrix 함수와 마찬가지로, Bellm
 
 ## 실행 결과
 1. **음의 가중치를 허용하지 않는 그래프**
+
 ![image](https://github.com/user-attachments/assets/835d3e04-1c57-4787-8360-46e8e53cbc42)
+
 위 사진은 강의 노트에 있는 그래프입니다. 이 그래프를 바탕으로 동작 실험을 진행
 하였고, 조건 체크, 입출력 모두 정상적으로 진행됨을 확인할 수 있었습니다.
 아래 사진은 그 결과입니다.
+
 ![image](https://github.com/user-attachments/assets/679160d0-2dc1-4cda-bad7-86f6092e94cc)
 
 2. **음의 가중치를 허용하는 그래프**
+   
 ![image](https://github.com/user-attachments/assets/592de119-8ee0-492b-8bd4-619694525d11)
+
 위 사진은 강의 노트에 있는 그래프입니다. 이 그래프를 바탕으로 동작 실험을 진행
 하였고, 조건 체크, 입출력 모두 정상적으로 진행됨을 확인할 수 있었습니다.
 아래 사진은 그 결과입니다
+
 ![image](https://github.com/user-attachments/assets/03c7bcd5-54bc-4146-bbe6-229a5bc216ab)
