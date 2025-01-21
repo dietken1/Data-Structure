@@ -1,4 +1,4 @@
-# 자료구조 4차 과제 보고서]
+# 자료구조 4차 과제 보고서
 ### 그래프를 생성하고, 이 그래프의 최단경로를 구하는 알고리즘을 구현
 Dijkstra 알고리즘과 Bellman-Ford 알고리즘을 이용해서 그래프 생성 및 경로를 구하는 프로그램을 작성.
 
@@ -51,8 +51,10 @@ generate_graph 함수는 main 함수로부터 정점의 개수 n, 간선의 개�
  show_graph 함수는 정점의 개수 n과 인접 행렬을 매개변수로 받습니다. 인접 행렬
 로 표현된 그래프를 이중 for문을 이용해서 정렬된 인접 행렬 형태로 출력하는 동작
 을 수행합니다. 두 정점 사이에 경로가 존재하지 않는 부분은 INF를 출력합니다. 
-[shortest_path_from_matrix_graph 함수]
- shortest_path_from_matrix_graph 함수에서는 인접 행렬로 표현된 그래프의 최단 
+
+
+## shortest_path_from_matrix_graph 함수
+shortest_path_from_matrix_graph 함수에서는 인접 행렬로 표현된 그래프의 최단 
 경로를 구하는 동작을 수행합니다. 이 함수는 매개변수로 앞서 말한 flag, n, 그리고 
 인접 행렬 matrix를 받습니다.
 함수의 매개변수를 과제 안내문에 제시된 것과 다르게 구성한 이유는 사용자의 입력
